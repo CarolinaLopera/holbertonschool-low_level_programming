@@ -24,7 +24,7 @@ int main(void)
 	{
 	prinf("%i is zero\n", n);
 	}
-	else if
+	else if (n < 0)
 	{
 	prinf("%i is negative\n", n);
 	}
