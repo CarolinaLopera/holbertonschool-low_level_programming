@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int letter = 65;
+
+	while (letter <= 90)
+	{
+		putchar(letter);
+		letter++;
+	}
+	putchar('\n');
+	return (0);
+}
