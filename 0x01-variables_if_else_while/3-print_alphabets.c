@@ -14,7 +14,7 @@ int main(void)
 		putchar(letter);
 		letter++;
 	}
-	while (Ltter <= 90)
+	while (Letter <= 90)
 	{
 		putchar(Letter);
 		Letter++;
