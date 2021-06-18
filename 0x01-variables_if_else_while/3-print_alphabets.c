@@ -6,12 +6,18 @@
  */
 int main(void)
 {
-	int letter = 65;
+	int letter = 97;
+	int Letter = 65;
 
-	while (letter <= 90)
+	while (letter <= 122)
 	{
 		putchar(letter);
 		letter++;
+	}
+	while (Litter <= 90)
+	{
+		putchar(Letter);
+		Letter++;
 	}
 	putchar('\n');
 	return (0);
