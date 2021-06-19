@@ -20,7 +20,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+		num++;
 	}
-	num++;
 	return (0);
 }
