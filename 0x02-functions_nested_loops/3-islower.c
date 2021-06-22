@@ -1,15 +1,5 @@
 #include "holberton.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	_islower('c');
-	return (0);
-}
-/**
 * _islower - check the code for Holberton School students.
 *
 * Return: 0 and 1.
