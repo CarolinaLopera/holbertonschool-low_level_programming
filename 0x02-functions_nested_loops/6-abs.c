@@ -7,6 +7,7 @@
 */
 int _abs(int num)
 {
-	num = num * -1;
-	return (0);
+	int positive = num * -1;
+
+	return (positive);
 }
