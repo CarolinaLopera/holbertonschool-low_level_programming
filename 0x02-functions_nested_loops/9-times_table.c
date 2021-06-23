@@ -7,14 +7,16 @@
 */
 void times_table(void)
 {
-	int table = 0;
+	int multi1, multi2;
 
-	while (table <= 90)
+	for (multi1 = 0; multi1 <= 9; multi1++)
 	{
-		_putchar((table % 10) + '0');
-		_putchar(',');
-		_putchar(' ');
-		table = table + 9;
+		for (multi2 = 0; multi2 <= 9; multi2++)
+		{
+			_putchar((multi1 * multi2) + '0');
+			_putchar(',');
+			_putchar(' ');
+			_putchar('\n');
+		}
 	}
-	_putchar('\n');
 }
