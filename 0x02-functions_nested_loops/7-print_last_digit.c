@@ -15,8 +15,17 @@ int print_last_digit(int num)
 	}
 	else if (num < 0)
 	{
-		int change = num * -1;
+		int change;
 
+		if (num == INT_MIN)
+		{
+			_putchar('8');
+			return (8);
+		}
+		else
+		{
+			change = num * -1;
+		}
 		last_num = change % 10;
 		_putchar(change % 10 + '0');
 	}
