@@ -15,8 +15,9 @@ int print_last_digit(int num)
 	}
 	else if (num < 0)
 	{
+		int change = num * -1;
 		_putchar('-');
-		_putchar(num % 10 + '0');
+		_putchar(change % 10 + '0');
 	}
 	else if (num == 0)
 	{
