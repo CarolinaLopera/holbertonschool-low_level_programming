@@ -17,7 +17,7 @@ void times_table(void)
 
 			if (result < 10)
 			{
-				if (multi1 != 0)
+				if (multi2 != 0)
 				{
 					_putchar(' ');
 				}
