@@ -15,7 +15,13 @@ int print_last_digit(int num)
 	}
 	else if (num < 0)
 	{
-		_putchar(num / 10 + '0');
+		_putchar('-');
+		_putchar(num % 10 + '0');
+	}
+	else if (num == 0)
+	{
+		_putchar(num + '0');
+		return (0);
 	}
 	return (last_num);
 }
