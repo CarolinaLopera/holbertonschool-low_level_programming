@@ -7,8 +7,6 @@
 */
 int _abs(int num)
 {
-	int change;
-
-	change = num * -1;
+	num = num * -1;
 	return (0);
 }
