@@ -19,7 +19,7 @@ void print_times_table(int n)
 
 			if (result < 10)
 			{
-				if (n != 0)
+				if (multi2 != 0)
 				{
 					_putchar(' ');
 				}
@@ -30,7 +30,7 @@ void print_times_table(int n)
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
 			}
-			if (multi1 != 10)
+			if (multi2 != 10)
 			{
 				_putchar(',');
 				_putchar(' ');
