@@ -46,7 +46,7 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar(' ');
 			}
-			else if (result >= 100 && result <= 110)
+			else if (multi2 = n && result >= 100)
 			{
 				_putchar(' ');
 			}
