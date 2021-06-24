@@ -8,28 +8,29 @@
 */
 void print_times_table(int n)
 {
-	int multi1, multi2, result;
+	int multi1, multi2;
+	int result = n * 10;
 
 	for (multi1 = 0; multi1 <= 10; multi1++)
 	{
-		for (multi2 = 0; multi2 <= 10; multi2++)
+		for (n; n <= result; n++)
 		{
-			result = multi1 * n;
+			multi2 = multi1 * n;
 
-			if (result < 10)
+			if (multi2 < 10)
 			{
-				if (multi2 != 0)
+				if (n != 0)
 				{
 					_putchar(' ');
 				}
-				_putchar((result) + '0');
+				_putchar((multi2) + '0');
 			}
 			else
 			{
-				_putchar((result / 10) + '0');
-				_putchar((result % 10) + '0');
+				_putchar((multi2 / 10) + '0');
+				_putchar((multi2 % 10) + '0');
 			}
-			if (multi2 != 10)
+			if (multi1 != 10)
 			{
 				_putchar(',');
 				_putchar(' ');
