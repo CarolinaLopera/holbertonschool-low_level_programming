@@ -12,7 +12,7 @@ void print_times_table(int n)
 
 	for (multi1 = 0; multi1 <= n; multi1++)
 	{
-		for (multi2 = 0; multi2 <= n; multi2++)
+		for (multi2 = 0; multi2 <= n; n++)
 		{
 			result = multi1 * n;
 
