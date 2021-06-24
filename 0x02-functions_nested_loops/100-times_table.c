@@ -23,7 +23,7 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 				}
-				_putchar((multi2) + '0');
+				_putchar((result) + '0');
 			}
 			else
 			{
