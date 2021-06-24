@@ -35,7 +35,12 @@ void print_times_table(int n)
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
 			}
-			if (multi2 < n)
+			if (result > 99)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			else if (multi2 < n && multi < 99)
 			{
 				_putchar(',');
 				_putchar(' ');
