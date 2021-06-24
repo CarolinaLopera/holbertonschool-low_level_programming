@@ -10,10 +10,11 @@ void print_times_table(int n)
 {
 	int multi1, multi2;
 	int result = n * 10;
+	int i = n;
 
-	for (multi1 = 0; multi1 <= 10; multi1++)
+	while (i <= result)
 	{
-		for (n = n; n <= result; n++)
+		for (multi1 = 0; multi1 <= 10; multi1++)
 		{
 			multi2 = multi1 * n;
 
@@ -35,6 +36,7 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 			}
+			i = multi2;
 		}
 		_putchar('\n');
 	}
