@@ -11,7 +11,7 @@ void print_times_table(int n)
 	int multi1, multi2;
 	int result;
 
-	for (multi1 = 0; multi1 <= n; multi1++)
+	for (multi1 = 0; multi1 <= n && n < 16; multi1++)
 	{
 		for (multi2 = 0; multi2 <= n; multi2++)
 		{
@@ -19,7 +19,7 @@ void print_times_table(int n)
 
 			if (result < 10)
 			{
-				if (multi1 != 0)
+				if (multi2 != 0)
 				{
 					_putchar(' ');
 				}
@@ -30,7 +30,7 @@ void print_times_table(int n)
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
 			}
-			if (multi1 != 10)
+			if (multi2 != 10)
 			{
 				_putchar(',');
 				_putchar(' ');
