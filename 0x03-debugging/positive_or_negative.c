@@ -10,6 +10,8 @@
  */
 int main(void)
 {
+	int i= 0;
+
 	if (i > 0)
 	{
 	printf("%i is positive\n", i);
@@ -22,5 +24,5 @@ int main(void)
 	{
 	printf("%i is negative\n", i);
 	}
-	return (0);i
+	return (0);
 }
