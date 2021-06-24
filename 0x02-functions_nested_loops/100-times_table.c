@@ -20,7 +20,7 @@ void print_times_table(int n)
 
 			if (result < 10)
 			{
-				if (multi2 != 0)
+				if (multi2 != n)
 				{
 					_putchar(' ');
 				}
