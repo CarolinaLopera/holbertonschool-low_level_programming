@@ -1,11 +1,11 @@
 #include "holberton.h"
 /**
-* print_line - check the code for Holberton School students.
+* print_square - check the code for Holberton School students.
 *
 * Return: void.
-* @n: is a variable int.
+* @size: is a variable int.
 */
-void print_line(int n)
+void print_square(int size)
 {
 	int times;
 	int lines;
