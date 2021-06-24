@@ -15,7 +15,7 @@ void print_times_table(int n)
 	{
 		for (multi2 = 0; multi2 <= n; multi2++)
 		{
-			result = multi1 * multi2;
+			result = multi2 * n;
 
 			if (result < 10)
 			{
