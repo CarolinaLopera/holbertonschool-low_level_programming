@@ -23,6 +23,7 @@ void print_times_table(int n)
 				if (multi2 != 0)
 				{
 					_putchar(' ');
+					_putchar(' ');
 				}
 				_putchar((result) + '0');
 			}
@@ -35,15 +36,23 @@ void print_times_table(int n)
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
 			}
-			if (multi2 != 10)
+			if (multi2 < 10)
 			{
 				_putchar(',');
+				_putchar(' ');
 				_putchar(' ');
 			}
 		}
 		_putchar('\n');
 	}
 }
+/**
+* pr_int - check the code for Holberton School students.
+*
+* Return: int.
+*
+* @n: is a variable int.
+*/
 void pr_int(int n)
 {
 	if (n < 0)
