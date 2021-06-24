@@ -8,6 +8,7 @@
 void print_line(int n)
 {
 	int times;
+	int lines;
 
 	for (times = 1; times <= n; times++)
 	{
