@@ -23,7 +23,6 @@ void print_times_table(int n)
 				if (multi2 != 0)
 				{
 					_putchar(' ');
-					_putchar(' ');
 				}
 				_putchar((result) + '0');
 			}
@@ -36,10 +35,9 @@ void print_times_table(int n)
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
 			}
-			if (multi2 < 10)
+			if (multi2 < n)
 			{
 				_putchar(',');
-				_putchar(' ');
 				_putchar(' ');
 			}
 		}
