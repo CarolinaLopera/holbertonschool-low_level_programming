@@ -10,9 +10,9 @@ void print_square(int size)
 	int times;
 	int lines;
 
-	for (times = 1; times <= n; times++)
+	for (times = 1; times <= size; times++)
 	{
-		for (lines = 1; lines <= n; lines++)
+		for (lines = 1; lines <= size; lines++)
 		{
 			_putchar(35);
 		}
