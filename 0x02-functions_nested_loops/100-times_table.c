@@ -38,7 +38,6 @@ void print_times_table(int n)
 			if (multi2 < n && result > 99)
 			{
 				_putchar(',');
-				_putchar(' ');
 			}
 			else if (multi2 < n && result < 99)
 			{
