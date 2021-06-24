@@ -10,7 +10,6 @@ void print_times_table(int n)
 {
 	int multi1, multi2;
 	int result;
-	int i = n;
 
 	for (multi1 = 0; multi1 <= n; multi1++)
 	{
