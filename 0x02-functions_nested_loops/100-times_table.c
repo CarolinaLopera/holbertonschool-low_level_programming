@@ -23,9 +23,9 @@ void print_times_table(int n)
 				if (multi2 != 0)
 				{
 					_putchar(' ');
+					_putchar(' ');
+					_putchar(' ');
 				}
-				_putchar(' ');
-				_putchar(' ');
 				_putchar((result) + '0');
 				if (multi2 < n)
 				{
