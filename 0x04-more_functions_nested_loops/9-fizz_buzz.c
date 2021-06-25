@@ -1,18 +1,18 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* fizz_buzz - check the code for Holberton School students.
+* main - check the code for Holberton School students.
 *
 * Return: void.
 *
 */
-void fizz_buzz(void)
+int main(void)
 {
 	int n;
 
 	for (n = 1; n <= 100; n++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
+		if (n % 15 == 0)
 		{
 			printf("FizzBuzz");
 		}
@@ -31,4 +31,5 @@ void fizz_buzz(void)
 		putchar(' ');
 	}
 	putchar('\n');
+	return (0);
 }
