@@ -1,12 +1,12 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* main - check the code for Holberton School students.
+* fizz_buzz - check the code for Holberton School students.
 *
 * Return: void.
 *
 */
-void main(void)
+void fizz_buzz(void)
 {
 	int n;
 
