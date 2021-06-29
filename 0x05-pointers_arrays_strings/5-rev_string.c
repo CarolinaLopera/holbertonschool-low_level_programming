@@ -8,13 +8,19 @@
 void rev_string(char *s)
 {
 	int end;
+	int i = 0, y = 0;
 	int ini = _strlen(s) - 1;
-	char *o = s;
+	char otro[1000];
+
+	for (y = 0; y <= (ini + 1); y++)
+	{
+		otro[y] = s[y];
+	}
 
 	for (end = ini; end >= 0; end--)
 	{
-		o[end] = s[ini];
-		ini++;
+		s[i] = otro[end];
+		i++;
 	}
 }
 /**
