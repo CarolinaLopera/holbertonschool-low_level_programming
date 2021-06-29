@@ -8,13 +8,13 @@
 void rev_string(char *s)
 {
 	int end;
-	int ini = _strlen(s) -1;
+	int ini = _strlen(s) - 1;
 	char *o = s;
 
 	for (end = ini; end >= 0; end--)
 	{
 		o[end] = s[ini];
-		end--;
+		ini++;
 	}
 }
 /**
