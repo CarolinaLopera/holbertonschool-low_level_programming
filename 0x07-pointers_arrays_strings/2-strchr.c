@@ -22,7 +22,7 @@ if (s[i] == c)
 {
 return (&s[i]);
 }
-return ("NULL");
+return ('\0');
 }
 /**
  * _strlen - check the code for Holberton School students.
