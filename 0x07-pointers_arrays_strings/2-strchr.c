@@ -17,7 +17,6 @@ char *_strchr(char *s, char c)
         {
             aux[i] = s[i];
         }
-        
     }
     return (aux);
 }
