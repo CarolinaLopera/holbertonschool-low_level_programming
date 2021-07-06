@@ -6,7 +6,7 @@ int main(void)
     char *s = "hola";
     char *f;
 
-    f = _strchr(s, 'l');
+    f = _strchr(s, '\0');
 
     if (f != NULL)
     {
