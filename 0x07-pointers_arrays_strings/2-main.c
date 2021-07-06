@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    char *s = "hello";
+    char *s = "hola";
     char *f;
 
     f = _strchr(s, 'l');
