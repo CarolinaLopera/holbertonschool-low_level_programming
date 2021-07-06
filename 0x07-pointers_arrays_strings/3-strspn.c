@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * _strcat - check the code for Holberton School students.
+ * _strspn - check the code for Holberton School students.
  *
  * Return: Always char*.
- * @dest: is a variable char*.
- * @src: is a variable char*.
+ * @s: is a variable char*.
+ * @accept: is a variable char*.
  */
 unsigned int _strspn(char *s, char *accept)
 {
