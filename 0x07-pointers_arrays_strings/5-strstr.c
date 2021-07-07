@@ -5,7 +5,7 @@
  * @needle: is a variable char*.
  * Return: always char*.
  */
- char *_strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 int i, j = 0;
 
