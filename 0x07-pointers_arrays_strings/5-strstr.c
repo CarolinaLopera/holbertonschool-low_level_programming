@@ -8,34 +8,28 @@
  */
  char *_strstr(char *haystack, char *needle)
 {
-    int i, j = 0;
-    char *aux;
+int i, j = 0;
 
-    for (i = 0; haystack[i] != '\0'; i++)
-    {
-        printf("entró\n");
-        if (needle[j] == '\0')
-        {
-            printf("entró if 1\n");
-            return (aux);
-        }
-        if (haystack[i] == needle[j] && j == 0)
-        {
-            printf("entró if 2\n");
-            aux = &haystack[i];
-            j++;
-        }
-        else if (j > 0)
-        {
-            printf("entró else if 1\n");
-            aux = '\0';
-            j = 0;
-        }
-        else if (haystack[i] == needle[j])
-        {
-            printf("entró else if 2\n");
-            j++;
-        }
-    }
-    return ('\0');
+for (i = 0; haystack[i] != '\0'; i++)
+{
+while (needle[j] && (haystack[i] == needle[0]))
+{
+if (haystack[i + j] == needle[j])
+j++;
+else
+{
+break;
+}
+}
+
+if (needle[j])
+{
+j = 0;
+}
+else
+{
+return (haystack + i);
+}
+}
+return ('\0');
 }
