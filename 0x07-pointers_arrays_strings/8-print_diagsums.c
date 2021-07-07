@@ -8,14 +8,26 @@
  */
 void print_diagsums(int *a, int size)
 {
-int i, sum1 = 0, sum2 = 0;
+int i, j = 0, k = 0;
+int acu = 0, acu2 = 0;
 
-for (i = 0; i < (size * size); i++)
-{
-if (i % (size + 1) == 0)
-sum1 += *(a + i);
-if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
-sum2 += *(a + i);
+for (i = 0; i < size * size; i++)
+{ 
+    if(i == (size*j)+j)
+    {
+        acu=acu+a[i]; 
+        j++;
+    }
+    if(i == (size*k)-k)
+    {
+        if(((size*size)-1) != ((size*k)-k)){
+            if(i!=0){
+              acu2=acu2+a[i];  
+            }
+            k++;
+        }
+    }
 }
-printf("%d, %d\n", sum1, sum2);
+
+printf("%d, %d\n", acu, acu2);
 }
