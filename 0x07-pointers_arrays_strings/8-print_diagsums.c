@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * print_diagsums - searches a string for any of a set of bytes.
- * @a: is a variable char* bidimensional.
+ * @a: is a variable int * bidimensional.
+ * @size: is the long of array int.
  * Return: always void.
  */
 void print_diagsums(int *a, int size)
