@@ -1,8 +1,32 @@
 #include "holberton.h"
 /**
- * _strlen_recursion - check the code for Holberton School students.
+ * _pow_recursion - check the code for Holberton School students.
  *
  * Return: Always void.
- * @s: is a variable char*.
- *
+ * @x: is a variable int.
+ * @y: is a variable int.
  */
+int _pow_recursion(int x, int y)
+{
+int aux;
+if (y < 0)
+{
+return (-1);
+}
+if (y == 0)
+{
+return (1);
+}
+
+if (y == 1)
+{
+return (x);
+}
+
+else
+{
+y--;
+aux = _pow_recursion(x, y);
+return (x * aux);
+}
+}
