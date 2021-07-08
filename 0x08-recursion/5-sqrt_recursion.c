@@ -17,7 +17,7 @@ if (y > (n / 2))
 return (-1);
 }
 y++;
-raiz(n, y);
+return (root(n, y));
 }
 /**
  * _sqrt_recursion - check the code for Holberton School students.
@@ -41,5 +41,5 @@ if (n == 0)
 return (0);
 }
 
-root(n, 2);
+return (root(n, 2));
 }
