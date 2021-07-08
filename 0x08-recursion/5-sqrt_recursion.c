@@ -1,31 +1,45 @@
 #include "holberton.h"
 /**
- * _pow_recursion - check the code for Holberton School students.
+ * root - check the code for Holberton School students.
  *
- * Return: Always void.
- * @x: is a variable int.
+ * Return: Always int.
+ * @n: is a variable int.
  * @y: is a variable int.
+ */
+int root(int n, int y)
+{
+if (n == (y * y))
+{
+return (y);
+}
+if (y > (n / 2))
+{
+return (-1);
+}
+y++;
+raiz(n, y);
+}
+/**
+ * _sqrt_recursion - check the code for Holberton School students.
+ *
+ * Return: Always int.
+ * @n: is a variable int.
  */
 int _sqrt_recursion(int n)
 {
+
 if (n < 0)
 {
 return (-1);
 }
-
-int temp = 0, div;
-div = n / 2;
-
-if (div != temp)
+if (n == 1)
 {
-    temp = div;
-    div = _sqrt_recursion(n / temp + temp);
-    return (div / 2);
+return (1);
+}
+if (n == 0)
+{
+return (0);
 }
 
-else
-{
-n--;
-return (n);
-}
+root(n, 2);
 }
