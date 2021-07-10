@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - check the code for Holberton School students.
  *
@@ -11,8 +12,8 @@ int main(int argc, char *argv[])
 {
 	if (argc == 3)
 	{
-		int num1 = *argv[1] - '0';
-		int num2 = *argv[2] - '0';
+		int num1 = atoi(argv[1]);
+		int num2 = atoi(argv[2]);
 		int result = num1 * num2;
 		printf("%i\n", result);
 	}
