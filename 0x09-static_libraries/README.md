@@ -1,1 +1,1 @@
-This a project about static libraries in C. :O
+This a project about static libraries in C.
