@@ -8,16 +8,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int len_src = _strlen(src);
-	int len_dest = _strlen(dest);
-	int i;
+int len_src = _strlen(src);
+int len_dest = _strlen(dest);
+int i;
 
-	for (i = 0; i <= (len_src + 1); i++)
-	{
-		dest[i + (len_dest + 1)] = src[i];
-	}
+for (i = 0; i <= (len_src + 1); i++)
+{
+dest[i + (len_dest + 1)] = src[i];
+}
 
-	return (dest);
+return (dest);
 }
 /**
  * _strlen - check the code for Holberton School students.
@@ -27,12 +27,12 @@ char *_strcat(char *dest, char *src)
  */
 int _strlen(char *s)
 {
-	int i;
+int i;
 
-	for (i = 0; s[i] != '\0'; i++)
-	{
-	}
-	i--;
+for (i = 0; s[i] != '\0'; i++)
+{
+}
+i--;
 
-	return (i);
+return (i);
 }
