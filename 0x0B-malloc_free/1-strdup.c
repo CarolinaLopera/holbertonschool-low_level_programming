@@ -23,5 +23,5 @@ char *_strdup(char *str)
 			aux[i] = str[i];
 		}
 		return (aux);
-	}	
+	}
 }
