@@ -15,47 +15,38 @@ int _convert(int n)
 	{
 		result = n / 25;
 		if ((n % 25) != 0)
-		{
 			return (result + _convert(n % 25));
-		}
 		return (result);
 	}
 	else if (n >= 10)
 	{
 		result = n / 10;
 		if ((n % 10) != 0)
-		{
 			return (result + _convert(n % 10));
-		}
 		return (result);
 	}
 	else if (n >= 5)
 	{
 		result = n / 5;
 		if ((n % 5) != 0)
-		{
 			return (result + _convert(n % 5));
-		}
 		return (result);
 	}
 	else if (n >= 2)
 	{
 		result = n / 2;
 		if ((n % 2) != 0)
-		{
 			return (result + _convert(n % 2));
-		}
 		return (result);
 	}
 	else if (n >= 1)
 	{
 		result = n / 1;
 		if ((n % 1) != 0)
-		{
 			return (result + _convert(n % 1));
-		}
 		return (result);
 	}
+	return (0);
 }
 
 /**
@@ -76,6 +67,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	int change = _convert(value);
-	printf("%i\n", change);
+	printf("%i\n", _convert(value));
+	return (0);
 }
