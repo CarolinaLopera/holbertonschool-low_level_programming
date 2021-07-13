@@ -62,6 +62,7 @@ int main(int argc, char *argv[])
 	if (argc == 2)
 	{
 		int value = atoi(argv[1]);
+
 		printf("%i\n", _convert(value));
 	}
 	else
