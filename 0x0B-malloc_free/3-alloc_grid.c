@@ -11,11 +11,10 @@
 int **alloc_grid(int width, int height)
 {
 	int **matriz;
-	int i;
+	int i, j;
 
 	if (width <= 0 || height <= 0)
 	{
-		printf("Error\n");
 		return (NULL);
 	}
 	matriz = malloc((width * height) * sizeof(int));
@@ -25,9 +24,13 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 
-	for (i = 0; i <= (width * height); i++)
+	for (i = 0; i < width; i++)
 	{
-		matriz[i] = 0;
+		for (j = 0; j < height; j++)
+		{
+			matriz[j] = 0;
+		}
+		matriz++;
 	}
 	return (matriz);
 }
