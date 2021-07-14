@@ -16,8 +16,13 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		char *aux = malloc(*str - 54* sizeof(char));
-		int i;
+		int i, j;
+		char *aux;
+
+		for (j = 0; str[j] != '\0'; j++)
+		{
+		}
+		aux = malloc(j * sizeof(char));
 
 		if (aux == NULL)
 		{
