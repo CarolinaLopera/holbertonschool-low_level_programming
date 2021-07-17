@@ -50,7 +50,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		if (i >= len2)
 			break;
 
-		if (len2 != n)
+		if (len2 != i)
 		{
 			aux[j] = s2[i];
 			j++;
