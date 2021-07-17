@@ -13,9 +13,7 @@ void *malloc_checked(unsigned int b)
 
 	if (asig == NULL)
 	{
-		free(asig);
-		*asig = 98;
-		return (asig);
+		exit(98);
 	}
 	return (asig);
 }
