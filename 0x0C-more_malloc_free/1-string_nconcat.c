@@ -47,13 +47,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	for (i = 0; i < n; i++)
 	{
+		if (i >= len2)
+			break;
+
 		if (len2 != n)
 		{
 			aux[j] = s2[i];
 			j++;
 		}
-		else
-			break;
 	}
 	aux[j + i] = '\0';
 	return (aux);
