@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
- * print_numbers - print all arguments of the function.
+ * print_strings - print variadics arguments string.
  *
  * Return: Always void.
  * @separator: is a char pointer to separate the munbers (, );
@@ -8,19 +8,19 @@
  * indica el numero de args undefined.
  *
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list num_ar;
+	va_list args;
 	unsigned int i;
 
-	va_start(num_ar, n);
+	va_start(args, n);
 
 	for (i = 1; i <= n; i++)
 	{
-		printf("%i", va_arg(num_ar, int));
+		printf("%s", va_arg(args, char*));
 		if (i != n && separator != NULL)
 			printf("%s", separator);
 	}
 	printf("\n");
-	va_end(num_ar);
+	va_end(args);
 }
