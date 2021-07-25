@@ -23,8 +23,7 @@ void print_all(const char * const format, ...)
 			if ((format[i] == types[j]) && bool != 0)
 			{
 				printf("%s", separator);
-			}
-			j++;
+			} j++;
 		}
 		switch (format[i])
 		{
@@ -46,8 +45,7 @@ void print_all(const char * const format, ...)
 			}
 			printf("%s", str);
 			break;
-		}
-		i++;
+		} i++;
 	}
 	printf("\n");
 	va_end(args);
