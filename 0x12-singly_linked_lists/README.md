@@ -1,0 +1,1 @@
+This a project about linker list in C.
