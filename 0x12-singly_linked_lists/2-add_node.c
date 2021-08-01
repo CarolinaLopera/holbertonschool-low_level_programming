@@ -10,9 +10,15 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *new_node = (struct list_s*) malloc(sizeof(list_t));
+	list_t *new_node = (struct list_s *) malloc(sizeof(list_t));
 	unsigned int len = 0;
 	char *str_cp;
+
+	if (new_node == NULL)
+	{
+		free(new_node);
+		return (NULL);
+	}
 
 	while (str[len] != '\0')
 		len++;
