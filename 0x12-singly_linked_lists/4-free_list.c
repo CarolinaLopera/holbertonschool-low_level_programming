@@ -2,7 +2,7 @@
 /**
  * free_list - check the code for Holberton School students.
  *
- * Return: Always size_t.
+ * Return: Always void.
  * @head: points to the next node.
  */
 void free_list(list_t *head)

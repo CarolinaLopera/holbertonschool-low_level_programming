@@ -1,7 +1,7 @@
 #include <string.h>
 #include "lists.h"
 /**
- * add_node - check the code for Holberton School students.
+ * add_node - This function add a node to start (head) of the list.
  *
  * Return: Always size_t.
  * @head: points to the next node.

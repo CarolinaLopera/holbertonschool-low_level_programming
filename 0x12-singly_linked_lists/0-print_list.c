@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_list - check the code for Holberton School students.
+ * print_list - This function print a list to string.
  *
  * Return: Always size_t.
  * @h: points to the next node.

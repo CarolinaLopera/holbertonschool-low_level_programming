@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * list_len - check the code for Holberton School students.
+ * list_len - This function return the number elements of a list.
  *
  * Return: Always size_t.
  * @h: points to the next node.

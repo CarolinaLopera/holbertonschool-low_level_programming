@@ -3,7 +3,7 @@
 /**
  * add_node_end - check the code for Holberton School students.
  *
- * Return: Always size_t.
+ * Return: Always list_t.
  * @head: points to the next node.
  * @str: is a variable char pointer.
  */
