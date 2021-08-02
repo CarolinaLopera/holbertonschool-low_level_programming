@@ -7,12 +7,13 @@
  */
 void free_list(list_t *head)
 {
-	list_t *aux = malloc(sizeof(list_t));
+	list_t *aux;
 
 	while (head != NULL)
 	{
-		aux = head;
-		head = head->next;
-		free(aux);
+		aux = head->next;
+		free(head->str);
+		free(head);
+		head = aux;
 	}
 }
