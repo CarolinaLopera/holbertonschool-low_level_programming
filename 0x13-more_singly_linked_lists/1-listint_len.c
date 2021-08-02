@@ -2,7 +2,7 @@
 /**
  * listint_len - This function return the number elements of a integer list.
  *
- * Return: Always size_t.
+ * Return: Always number of nodes.
  * @h: points to the first node.
  */
 size_t listint_len(const listint_t *h)

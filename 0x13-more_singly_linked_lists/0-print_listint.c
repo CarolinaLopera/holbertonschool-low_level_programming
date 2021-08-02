@@ -3,7 +3,7 @@
 /**
  * print_listint - This function print a list to integer.
  *
- * Return: Always size_t.
+ * Return: Number of nodes.
  * @h: points to the first node.
  */
 size_t print_listint(const listint_t *h)
