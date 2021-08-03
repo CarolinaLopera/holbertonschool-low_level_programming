@@ -3,7 +3,7 @@
 /**
  * add_node - This function add a node to start (head) of the list.
  *
- * Return: Always size_t.
+ * Return: Always a adress to new node.
  * @head: points to the next node.
  * @str: is a variable char pointer.
  */

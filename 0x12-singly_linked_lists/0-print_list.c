@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_list - This function print a list to string.
+ * print_list - This function print a string list.
  *
  * Return: Always size_t.
- * @h: points to the next node.
+ * @h: points to the first node.
  */
 size_t print_list(const list_t *h)
 {
