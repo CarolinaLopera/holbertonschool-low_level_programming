@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * pop_listint - This function print a list to integer.
+ * pop_listint - This function delete head node.
  *
  * Return: Always int.
  * @head: points to the first node.
