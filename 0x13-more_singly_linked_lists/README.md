@@ -12,3 +12,4 @@
 | get_nodeint_at_index | This function takes an index which indicates a number of node. Return the node in those position. |
 | sum_listint | This function sum all the data (n) of a linked integer list. Return the result of the sum. |
 | insert_nodeint_at_index | This function inserts a new node at a given position. Retunr a adress to new node. |
+| delete_nodeint_at_index | This function delete a node at a given position. Return 1 if it is delete correctly, -1 if it failed. |
