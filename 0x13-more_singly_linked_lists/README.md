@@ -11,3 +11,4 @@
 | pop_listint | This function delete the first (head) node the a integer list. Return the integer that was in the node. |
 | get_nodeint_at_index | This function takes an index which indicates a number of node. Return the node in those position. |
 | sum_listint | This function sum all the data (n) of a linked integer list. Return the result of the sum. |
+| insert_nodeint_at_index | This function inserts a new node at a given position. Retunr a adress to new node. |
