@@ -35,5 +35,6 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		i++;
 		*head = (*head)->next;
 	}
+	*head = head_cpy;
 	return (-1);
 }
