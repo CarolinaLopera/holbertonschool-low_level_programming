@@ -1,16 +1,18 @@
 #include "main.h"
 /**
- * print_binary - This function print a binary.
+ * get_bit - This function return the value of a bit at a given index.
  *
- * Return: Always void.
+ * Return: Always int.
  * @n: Is a variable to print as binary.
+ * @index: Indicate the position to return in binary.
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int value = n >> index;
-
-	if (value)
- 		return (value);
+	if (n >> index)
+	{
+		n >>= index;
+		return (n & 1);
+	}
 
 	return (-1);
 }
