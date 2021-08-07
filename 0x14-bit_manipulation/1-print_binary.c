@@ -10,12 +10,9 @@ void print_binary(unsigned long int n)
 	int i, bool = 0;
 
 	if (n == 0)
-	{
 		_putchar('0');
-		return;
-	}
 
-	for (i = 64; i >= 0 ; i--)
+	for (i = 63; i >= 0 ; i--)
 	{
 		if ((n >> i) & 1)
 			bool = 1;
