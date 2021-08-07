@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * binary_to_uint - This function convert a binary to int.
+ * binary_to_uint - This function convert a binary to decimal.
  *
  * Return: Always int.
  * @b: Is a variable char pointer.
