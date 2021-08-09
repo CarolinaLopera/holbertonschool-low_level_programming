@@ -8,7 +8,7 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd = open(filename, 0700);
+	int fd = open(filename, O_RDWR | O_APPEND, 0700);
 	ssize_t count;
 	char buf[500];
 
