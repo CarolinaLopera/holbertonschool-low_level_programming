@@ -8,14 +8,18 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd = open(filename, O_RDONLY, 0700);
+	int fd;
 	ssize_t count;
-	char *buf = malloc(letters * sizeof(char));
+	char *buf;
 
-	if (fd == -1)
-		return (0);
 	if (filename == NULL)
 		return (0);
+
+	fd = open(filename, O_RDONLY, 0700);
+	if (fd == -1)
+		return (0);
+
+	buf  = malloc(letters * sizeof(char));
 	if (buf == NULL)
 		return (0);
 
