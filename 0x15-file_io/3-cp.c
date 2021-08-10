@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	error = close(fd_from);
 	if (error == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", file_from);
 		exit(100);
 	}
 	fd_to = open(file_to, O_TRUNC | O_CREAT | O_WRONLY | O_APPEND, 0664);
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 	error = close(fd_to);
 	if (error == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", file_to);
 		exit(100);
 	}
 	return (0);
