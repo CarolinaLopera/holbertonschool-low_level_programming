@@ -8,7 +8,7 @@
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-    unsigned long int aux;
+	unsigned long int aux;
 	(void)aux;
 
 	if (index > 64)
