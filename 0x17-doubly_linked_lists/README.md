@@ -7,7 +7,7 @@
 | add_dnodeint | This function adds a new node at the beginning of a list |
 | free_dlistint | This function frees all nodes from a list |
 | get_dnodeint_at_index | This function return a node in a specified index |
-|  | This function  |
+| sum_dlistint | This function returns the sum of all the data (n) of a linked list |
 |  | This function  |
 |  | This function  |
 |  | This function  |

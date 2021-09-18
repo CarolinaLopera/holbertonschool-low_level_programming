@@ -2,8 +2,8 @@
 
 /**
  * sum_dlistint - check the code
- *
- * Return: Always EXIT_SUCCESS.
+ * @head: is a pointer to the first node.
+ * Return: the sum of all the data (n).
  */
 int sum_dlistint(dlistint_t *head)
 {
