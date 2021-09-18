@@ -6,7 +6,7 @@
 | dlistint_len | This function returns the number of elements in a linked list |
 | add_dnodeint | This function adds a new node at the beginning of a list |
 | free_dlistint | This function frees all nodes from a list |
-| get_dnodeint_at_index | This function return a node in a specified position |
+| get_dnodeint_at_index | This function return a node in a specified index |
 |  | This function  |
 |  | This function  |
 |  | This function  |
