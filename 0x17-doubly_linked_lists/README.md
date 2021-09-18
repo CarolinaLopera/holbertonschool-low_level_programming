@@ -8,7 +8,7 @@
 | free_dlistint | This function frees all nodes from a list |
 | get_dnodeint_at_index | This function return a node in a specified index |
 | sum_dlistint | This function returns the sum of all the data (n) of a linked list |
-|  | This function  |
+| insert_dnodeint_at_index | This function inserts a new node at a given position |
 |  | This function  |
 |  | This function  |
 |  | This function  |
